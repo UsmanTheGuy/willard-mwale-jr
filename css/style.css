@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+@font-face { 
+    font-family: Chalkboard;
+    src: url('../Font/chalkboard-bold.ttf'); 
+}
 :root
 {
     --color-black: #000;
@@ -8,6 +11,7 @@
     --light-bg:#eee;
     --border-bold: .5rem solid var(--color-black);
     --border-light: .2rem solid var(--color-black);
+    --logo-font:'Chalkboard';
 }
 
 *{
@@ -119,6 +123,7 @@ section
 
 .header .logo
 {
+    font-family: var(--logo-font);
     text-transform: uppercase;
     border-bottom: var(--border-bold);
     font-weight: bolder;
@@ -210,8 +215,9 @@ section
 
 .home .content h3
 {
+    font-family: var(--logo-font);
     text-transform: uppercase;
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     margin-bottom: .5rem;
     color: transparent;
     -webkit-text-stroke: 1px var(--color-black);
