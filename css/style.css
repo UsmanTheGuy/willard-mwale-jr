@@ -208,6 +208,7 @@ section
 
 .home .content h1
 {
+    font-family: var(--logo-font);
     text-transform: uppercase;
     font-size: 4rem;
     margin-bottom: .5rem;
@@ -244,7 +245,7 @@ section
 
 .home .content p
 {
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     line-height: 2;
     padding: 1rem 0;
 }
