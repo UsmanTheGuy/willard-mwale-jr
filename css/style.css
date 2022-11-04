@@ -598,11 +598,3 @@ section
         width: 100%;
     }
 }
-
-@media (max-width: 350px) {
-    .home .image img
-    {
-        height: 30vh;
-        width: 70vw;
-    }
-}
