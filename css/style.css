@@ -561,7 +561,7 @@ section
     }
 }
 
-@media (max-width: 500px)
+@media (max-width: 450px)
 {
     html
     {
@@ -596,5 +596,13 @@ section
     .contact form .flex .box
     {
         width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .home .image img
+    {
+        height: 30vh;
+        width: 70vw;
     }
 }
